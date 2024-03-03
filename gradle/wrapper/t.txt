@@ -1,1 +1,0 @@
-/storage/emulated/0/25game/createfix-template-1.20.1/gradle/wrapper/
