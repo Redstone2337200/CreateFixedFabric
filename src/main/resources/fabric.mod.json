@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "createfix",
+	"version": "${version}",
+	"name": "createfix",
+	"description": "A module to repair SkyMachine and Kirin processors.",
+	"authors": [
+		"Redstone233"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/createfix/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.redstone233.createfix.Createfix"
+		],
+		"fabric-datagen": [
+			"com.redstone233.createfix.CreatefixDataGenerator"
+		]
+	},
+	"mixins": [
+		"createfix.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
